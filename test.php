@@ -1,3 +1,6 @@
+<?php
+$message = "OK!!!";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    Hello!
+    <?= $message ?>
 </body>
 </html>
